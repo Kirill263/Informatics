@@ -10,7 +10,9 @@ int main()
 	
 	cout<<"Choose a math operation"<<endl<<
 	    "1-Addition"<<endl<<
-	    "2-Subtraction"<<endl;
+	    "2-Subtraction"<<endl<<
+	    "3-Multiplication"<<endl<<
+        "4-Division"<<endl;
 	    
 	cin>>selection;
 	
@@ -22,6 +24,12 @@ int main()
 	case 2:
 		cout << a-b << endl;
 		break;
+	case 3:
+      cout << a*b <<endl;
+        break;
+    case 4:
+      cout << a/b << endl;
+        break;
 	default:
 		cout<<"Error! There is no such operation!"<<endl;
 		break;
